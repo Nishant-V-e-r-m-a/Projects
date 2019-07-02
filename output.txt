@@ -1,0 +1,29 @@
+       ---------Symbol Table----------
+
+Address  	Name	Type    	Value
+NULL	I	VARIABLE	NULL
+00000010	H	VARIABLE	4
+00000011	G	VARIABLE	5       aabcs
+00001011	J	VARIABLE	5
+00000110	LOOP	LABEL   	NULL
+00001101	L	VARIABLE	4
+00001100	K	VARIABLE	5
+
+
+       ---------Literal Table----------
+
+Address 	Name	Value
+00001110	'=30'	30
+
+
+       --------Machine Code-----------
+
+ILC     	Opcode	Operand
+00000000	0000	
+00000001	0001	
+00000100	0011	
+00000101	0010	
+00000110	0001	00001011
+00000111	0011	00001101
+00001000	1010	00001110
+00001001	1100	

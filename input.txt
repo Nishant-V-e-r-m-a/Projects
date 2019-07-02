@@ -1,0 +1,14 @@
+	CLA		0ghevdqhyxv
+	LAC	I	1
+H	DS	4	2
+G	DC	5       aabcs
+	ADD		3
+	SAC	MUL	4
+LOOP	LAC	J	5
+	ADD	L	6	
+	MUL	'=30'	7
+	STP
+	DC	4	10
+J	DS	5	11
+K	DS	5	12
+L	DS	4	13
